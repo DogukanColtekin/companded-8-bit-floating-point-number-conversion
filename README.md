@@ -15,11 +15,11 @@ This project implements a decoder that converts an 8-bit simplified floating poi
 
 ## Overview
 
-- Converts the 8-bit floating point input into an 11-bit binary number using the formula:  
-  \[
-  \text{Value} = (1 - 2 \times S) \times M \times 2^E
-  \]  
-  where \( S \) is the sign bit, \( M \) is the mantissa, and \( E \) is the exponent.
+- Converts the 8-bit floating point input into an 11-bit binary number using the formula:
+
+Value = (1 - 2 × S) × M × 2^E
+
+where S is the sign bit, M is the mantissa, and E is the exponent.
 
 - Converts the 11-bit binary number to 4-digit BCD using the shift-and-add-3 algorithm.
 
